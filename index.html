@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js"></script>  
+</head>
+
+<body id = "bodyID" onload="setAction()">
+    <div id="main">
+        <h1>Введите свои данные</h1>
+        <div class="inputdiv">
+            <p>Имя:</p> 
+            <input type="text" id="nameID" class="text">
+        </div>
+        <div class="inputdiv">
+            <p>Фамилия:</p> 
+            <input type="text" id="surnameID" class="text">
+        </div>        
+        <div class="inputdiv">
+            <p>Дата рождения:</p> 
+            <input type="date" id="birthID" class="text">
+        </div>
+        <div class="inputdiv">
+            <p>Email:</p> 
+            <input type="text" id="emailID" class="text">
+        </div>
+        <div class="inputdiv">
+            <p id="sextitleID">Пол:</p> 
+            <fieldset class="sex">
+                <div><input type="radio" id="maleID" name="sex"><span class="sradio">Муж</span></div>
+                <div><input type="radio" id="femaleID" name="sex"><span class="sradio">Жен</span></div>
+            </fieldset>
+        </div>
+        <input type="button" id = "submit" class="button" value="Отправить"> 
+    </div>
+
+</body>
+
+</html>

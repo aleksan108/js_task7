@@ -1,0 +1,58 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    height: 1000px;
+    background: url(./assets/21-21.jpg) no-repeat;
+    background-clip: content-box;
+    border: 1px solid black;
+    grid-gap: 30px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    color: white;
+}
+
+.inputdiv{
+    height: 120px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    border-color:cadetblue;
+}
+
+.button{
+    height: 50px;
+    width: 50%;
+    border-radius: 15px;
+    border-color:black;
+    background-color:darkorange;
+    color: white;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: darkslategrey;
+}
+
+.sex{
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+    margin-top: -5px;
+}
+
+.sradio{
+    margin-left: 5px;
+}
